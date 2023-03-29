@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/qaxuigbq31b6/public_html/
+    - export DEPLOYPATH=/home/qaxuigbq31b6/public_html/dummy
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
